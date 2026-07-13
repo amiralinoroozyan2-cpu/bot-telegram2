@@ -1,7 +1,29 @@
+# متغیرهای محیطی واقعی
 .env
+
+# دیتابیس SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# کش پایتون
 __pycache__/
+*.py[cod]
+*$py.class
 *.pyc
-*.pyo
-data.json
+
+# محیط مجازی
+.venv/
+venv/
+env/
+
+# لاگ‌ها
 *.log
+
+# macOS
 .DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
